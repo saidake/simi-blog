@@ -1,12 +1,10 @@
-import React, {Suspense} from "react";
+import React from 'react';
+import './App.css';
 
-import BasicPage from "@/pages/BasicPage";
-import TestPage from "@/pages/TestPage";
-const App: React.FC<any> = () => {
-  return (
-   <BasicPage/>
-  //  <TestPage/>
-  );
-};
+function App() {
+  return <div style={{"backgroundColor":"grey", "height":"100vh"}}>
+    Simi Blog Main Page
+  </div>;
+}
 
 export default App;

@@ -16,14 +16,9 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": false,
+    "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "baseUrl": ".",
-    "paths": {
-      "@/*":["src/*"],
-      "@pages/*":["src/pages/*"]
-    }
+    "jsx": "react-jsx"
   },
   "include": [
     "src"

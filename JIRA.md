@@ -1,1 +1,0 @@
-[stock chart] show stock chart
